@@ -37,7 +37,7 @@ def error():
 def findperiod(signal, num, trig1, trig2):
     #trova il campione di inizio periodo di indice n1
     flag1=False
-    n1=0
+    n1=0 #commento solo così
     n2=0
     for i in range(10,num):
         if((-signal[i]<=trig1)&(-signal[i+1]>trig1)):
